@@ -1,0 +1,213 @@
+baseURL = "https://libraryvpn.org/"
+languageCode = "en-us"
+title = "LibraryVPN"
+theme = "hugo-fresh"
+
+[params]
+openGraph = true
+section5 = true
+
+  [params.navbarlogo]
+  image = "logos/vpn.png"
+  link = "/"
+
+  [params.font]
+  name = "Open Sans"
+  sizes = [
+    400.0,
+    600.0
+  ]
+
+  [params.hero]
+  title = "Secure your patron's web traffic"
+  subtitle = "even when they aren't in the library"
+  buttontext = "Learn More"
+  buttonlink = "#"
+  image = "illustrations/worker.svg"
+  clientlogos = [
+  ]
+
+  [params.section1]
+  title = "Great power comes"
+  subtitle = "with great responsibility"
+
+    [[params.section1.tiles]]
+    title = "App builder"
+    icon = "mouse-globe"
+    text = "This is some explanatory text that is on two rows"
+    url = "/"
+    buttonText = "Free trial"
+
+    [[params.section1.tiles]]
+    title = "Cloud integration"
+    icon = "laptop-cloud"
+    text = "This is some explanatory text that is on two rows"
+    url = "/"
+    buttonText = "Get started"
+
+    [[params.section1.tiles]]
+    title = "Add-ons & plugins"
+    icon = "plug-cloud"
+    text = "This is some explanatory text that is on two rows"
+    url = "/"
+    buttonText = "Get started"
+
+  [params.section2]
+  title = "You're here because you want the best"
+  subtitle = "And we know it"
+
+    [[params.section2.features]]
+    title = "Powerful and unified interface"
+    text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
+    icon = "laptop-globe"
+
+    [[params.section2.features]]
+    title = "Cross-device synchronisation"
+    text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
+    icon = "doc-sync"
+
+    [[params.section2.features]]
+    title = "Nomad system"
+    text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
+    icon = "mobile-feed"
+
+  [params.section3]
+  title = "One platform"
+  subtitle = "To rule them all"
+  image = "illustrations/mockups/app-mockup.png"
+  buttonText = "Get started"
+  buttonLink = "#"
+
+  [params.section4]
+  title = "Our Clients love us!"
+  subtitle = "Lorem ipsum sit dolor amet is a dummy text used by typography industry"
+
+    [[params.section4.clients]]
+    name = "Irma Walters"
+    quote = "Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at."
+    job = "Accountant"
+    img = 1.0
+
+    [[params.section4.clients]]
+    name = "John Bradley"
+    quote = "Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at."
+    job = "Financial Analyst"
+    img = 2.0
+
+    [[params.section4.clients]]
+    name = "Gary Blackman"
+    quote = "Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at."
+    job = "HR Manager"
+    img = 3.0
+
+  [params.footer]
+  logo = "fresh-white-alt.svg"
+  socialmediatitle = "Follow Us"
+  bulmalogo = true
+
+    [params.footer.quicklinks]
+
+      [params.footer.quicklinks.column1]
+      title = "Product"
+
+        [[params.footer.quicklinks.column1.links]]
+        text = "Discover features"
+        link = "/"
+
+        [[params.footer.quicklinks.column1.links]]
+        text = "Why choose our product?"
+        link = "/"
+
+        [[params.footer.quicklinks.column1.links]]
+        text = "Compare features"
+        link = "/"
+
+        [[params.footer.quicklinks.column1.links]]
+        text = "Our roadmap"
+        link = "/"
+
+        [[params.footer.quicklinks.column1.links]]
+        text = "AGB"
+        link = "/agb"
+
+      [params.footer.quicklinks.column2]
+      title = "Docs"
+
+        [[params.footer.quicklinks.column2.links]]
+        text = "Get started"
+        link = "/"
+
+        [[params.footer.quicklinks.column2.links]]
+        text = "User guides"
+        link = "/"
+
+        [[params.footer.quicklinks.column2.links]]
+        text = "Admin guide"
+        link = "/"
+
+        [[params.footer.quicklinks.column2.links]]
+        text = "Developers"
+        link = "/"
+
+      [params.footer.quicklinks.column3]
+      title = "Blog"
+
+        [[params.footer.quicklinks.column3.links]]
+        text = "Latest news"
+        link = "/blog/first"
+
+        [[params.footer.quicklinks.column3.links]]
+        text = "Tech articles"
+        link = "/blog/second"
+
+    [[params.footer.socialmedia]]
+    link = "https://github.com/lucperkins/github-fresh"
+    icon = "github"
+
+    [[params.footer.socialmedia]]
+    link = "https://dribbble.com/#"
+    icon = "dribbble"
+
+    [[params.footer.socialmedia]]
+    link = "https://facebook.com/#"
+    icon = "facebook"
+
+    [[params.footer.socialmedia]]
+    link = "https://twitter.com/lucperkins"
+    icon = "twitter"
+
+    [[params.footer.socialmedia]]
+    link = "https://bitbucket.org/#"
+    icon = "bitbucket"
+
+  [[params.navbar]]
+  title = "Features"
+  url = "/"
+
+  [[params.navbar]]
+  title = "Pricing"
+  url = "/"
+
+  [[params.navbar]]
+  title = "Dropdown"
+
+    [[params.navbar.sublinks]]
+    title = "Dropdown item"
+    url = "/"
+
+    [[params.navbar.sublinks]]
+    title = "Dropdown item"
+    url = "/"
+
+    [[params.navbar.sublinks]]
+    title = "Dropdown item"
+    url = "/"
+
+  [[params.navbar]]
+  title = "Log in"
+  url = "/"
+
+  [[params.navbar]]
+  title = "Sign up"
+  url = "/"
+  button = true
