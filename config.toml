@@ -2,7 +2,7 @@ baseURL = "https://libraryvpn.org/"
 languageCode = "en-us"
 title = "LibraryVPN"
 theme = "hugo-fresh"
-
+disableKinds = ["taxonomy","taxonomyTerm"]
 [params]
 openGraph = true
 section5 = true
@@ -181,33 +181,13 @@ section5 = true
     icon = "bitbucket"
 
   [[params.navbar]]
-  title = "Features"
-  url = "/"
+  title = "FAQ"
+  url = "/faq"
 
   [[params.navbar]]
-  title = "Pricing"
-  url = "/"
+  title = "About"
+  url = "/#section1"
 
   [[params.navbar]]
-  title = "Dropdown"
-
-    [[params.navbar.sublinks]]
-    title = "Dropdown item"
-    url = "/"
-
-    [[params.navbar.sublinks]]
-    title = "Dropdown item"
-    url = "/"
-
-    [[params.navbar.sublinks]]
-    title = "Dropdown item"
-    url = "/"
-
-  [[params.navbar]]
-  title = "Log in"
-  url = "/"
-
-  [[params.navbar]]
-  title = "Sign up"
-  url = "/"
-  button = true
+  title = "Get Involved"
+  url = "/#section2"
