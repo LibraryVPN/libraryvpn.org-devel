@@ -170,8 +170,8 @@ section5 = true
 
   [[params.navbar]]
   title = "About"
-  url = "/#section1"
+  url = "/about"
 
   [[params.navbar]]
   title = "Get Involved"
-  url = "/#section2"
+  url = "https://github.com/LibraryVPN/"
