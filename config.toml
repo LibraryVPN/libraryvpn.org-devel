@@ -22,7 +22,7 @@ section5 = true
   title = "Secure your patron's web traffic"
   subtitle = "even when they aren't in the library"
   buttontext = "Learn More"
-  buttonlink = "#"
+  buttonlink = "/about"
   image = "illustrations/worker.svg"
   clientlogos = [
   ]
