@@ -1,0 +1,23 @@
+article h2 {
+    font-size: 2em;
+    margin-top: 1em;
+}
+
+
+article .item-content {
+    margin-left: 2em;
+}
+
+p {
+  margin-bottom: .5em;
+}
+
+.item-content ol {
+  margin-left: 2em;
+  margin-bottom: .5em;
+}
+
+.navbar.is-fresh .navbar-brand .navbar-item img {
+  max-height: 300px !important;
+  height: 5em;
+}

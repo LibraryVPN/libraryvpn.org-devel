@@ -1,24 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>LibraryVPN</title>
-    <link>https://libraryvpn.org/</link>
-    <description>Recent content on LibraryVPN</description>
+    <title>FAQ&#39;s on LibraryVPN</title>
+    <link>https://libraryvpn.org/faq/</link>
+    <description>Recent content in FAQ&#39;s on LibraryVPN</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 27 Feb 2020 14:44:40 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 26 Feb 2020 15:06:03 -0500</lastBuildDate>
     
-	<atom:link href="https://libraryvpn.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://libraryvpn.org/faq/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>About</title>
-      <link>https://libraryvpn.org/about/</link>
-      <pubDate>Thu, 27 Feb 2020 14:44:40 -0500</pubDate>
-      
-      <guid>https://libraryvpn.org/about/</guid>
-      <description>People are increasingly concerned by attacks on their online security and privacy. Those who cannot afford broadband access in their home have to rely on free public wifi hotspots where security can be minimal and there are no built in security or privacy protection. Even those who can afford their own internet service have reason to worry about applications abusing their access to gather information and sell it for profit.</description>
-    </item>
     
     <item>
       <title>Who is behind LibraryVPN?</title>

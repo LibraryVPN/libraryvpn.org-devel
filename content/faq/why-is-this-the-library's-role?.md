@@ -1,7 +1,7 @@
 ---
 title: "Why Is This the Library's Role?"
 date: 2020-02-27T13:59:25-05:00
-draft: true
+draft: false 
 ---
 Library VPN brings together two ideas that are both widely accepted in modern library practice.
 1. Libraries should work to protect patron privacy
