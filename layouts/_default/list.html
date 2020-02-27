@@ -23,7 +23,7 @@
     {{ range .Pages }}
 		<article id="{{ .UniqueID }}">
 			<h2>{{ .Title }}</h2>
-			<p>	{{ .Content }} </p>
+			<div class="item-content">	{{ .Content }} </div>
 		</article>
     {{ end }}
   </div>

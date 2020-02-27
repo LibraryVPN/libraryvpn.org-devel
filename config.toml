@@ -101,84 +101,68 @@ section5 = true
 #    img = 3.0
 
   [params.footer]
-  logo = "fresh-white-alt.svg"
+  logo = "vpn.png"
   socialmediatitle = "Follow Us"
-  bulmalogo = true
-
-    [params.footer.quicklinks]
-
-      [params.footer.quicklinks.column1]
-      title = "Product"
-
-        [[params.footer.quicklinks.column1.links]]
-        text = "Discover features"
-        link = "/"
-
-        [[params.footer.quicklinks.column1.links]]
-        text = "Why choose our product?"
-        link = "/"
-
-        [[params.footer.quicklinks.column1.links]]
-        text = "Compare features"
-        link = "/"
-
-        [[params.footer.quicklinks.column1.links]]
-        text = "Our roadmap"
-        link = "/"
-
-        [[params.footer.quicklinks.column1.links]]
-        text = "AGB"
-        link = "/agb"
-
-      [params.footer.quicklinks.column2]
-      title = "Docs"
-
-        [[params.footer.quicklinks.column2.links]]
-        text = "Get started"
-        link = "/"
-
-        [[params.footer.quicklinks.column2.links]]
-        text = "User guides"
-        link = "/"
-
-        [[params.footer.quicklinks.column2.links]]
-        text = "Admin guide"
-        link = "/"
-
-        [[params.footer.quicklinks.column2.links]]
-        text = "Developers"
-        link = "/"
-
-      [params.footer.quicklinks.column3]
-      title = "Blog"
-
-        [[params.footer.quicklinks.column3.links]]
-        text = "Latest news"
-        link = "/blog/first"
-
-        [[params.footer.quicklinks.column3.links]]
-        text = "Tech articles"
-        link = "/blog/second"
+  bulmalogo = false
+#
+#    [params.footer.quicklinks]
+#
+#      [params.footer.quicklinks.column1]
+#      title = "Product"
+#
+#        [[params.footer.quicklinks.column1.links]]
+#        text = "Discover features"
+#        link = "/"
+#
+#        [[params.footer.quicklinks.column1.links]]
+#        text = "Why choose our product?"
+#        link = "/"
+#
+#        [[params.footer.quicklinks.column1.links]]
+#        text = "Compare features"
+#        link = "/"
+#
+#        [[params.footer.quicklinks.column1.links]]
+#        text = "Our roadmap"
+#        link = "/"
+#
+#        [[params.footer.quicklinks.column1.links]]
+#        text = "AGB"
+#        link = "/agb"
+#
+#      [params.footer.quicklinks.column2]
+#      title = "Docs"
+#
+#        [[params.footer.quicklinks.column2.links]]
+#        text = "Get started"
+#        link = "/"
+#
+#        [[params.footer.quicklinks.column2.links]]
+#        text = "User guides"
+#        link = "/"
+#
+#        [[params.footer.quicklinks.column2.links]]
+#        text = "Admin guide"
+#        link = "/"
+#
+#        [[params.footer.quicklinks.column2.links]]
+#        text = "Developers"
+#        link = "/"
+#
+#      [params.footer.quicklinks.column3]
+#      title = "Blog"
+#
+#        [[params.footer.quicklinks.column3.links]]
+#        text = "Latest news"
+#        link = "/blog/first"
+#
+#        [[params.footer.quicklinks.column3.links]]
+#        text = "Tech articles"
+#        link = "/blog/second"
 
     [[params.footer.socialmedia]]
-    link = "https://github.com/lucperkins/github-fresh"
+    link = "https://github.com/LibraryVPN"
     icon = "github"
-
-    [[params.footer.socialmedia]]
-    link = "https://dribbble.com/#"
-    icon = "dribbble"
-
-    [[params.footer.socialmedia]]
-    link = "https://facebook.com/#"
-    icon = "facebook"
-
-    [[params.footer.socialmedia]]
-    link = "https://twitter.com/lucperkins"
-    icon = "twitter"
-
-    [[params.footer.socialmedia]]
-    link = "https://bitbucket.org/#"
-    icon = "bitbucket"
 
   [[params.navbar]]
   title = "FAQ"
