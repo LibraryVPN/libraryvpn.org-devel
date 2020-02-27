@@ -1,0 +1,32 @@
+{{ define "main" }}
+{{ partial "navbar.html"  . }}
+{{ partial "navbar-clone.html"  . }}
+<main>
+<section class="section">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-centered-tablet-portrait">
+        <h1 class="title section-title">{{ .Title }}</h1>
+        <h5 class="subtitle is-5 is-muted">{{ .Params.Subtitle }}</h5>
+        <div class="divider"></div>
+      </div>
+    </div>
+    {{ .Content }}
+  </div>
+</section>
+  <div class="container">
+    <ul>
+    {{ range .Pages }}
+    <li><a href="#{{ .UniqueID }}">{{ .Title }}</a></li>
+{{ end }}
+</ul>
+    {{ range .Pages }}
+		<article id="{{ .UniqueID }}">
+			<h2>{{ .Title }}</h2>
+			<p>	{{ .Content }} </p>
+		</article>
+    {{ end }}
+  </div>
+</main>
+{{ end }}
+
