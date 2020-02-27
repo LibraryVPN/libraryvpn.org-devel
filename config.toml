@@ -178,4 +178,4 @@ section5 = false
 
   [[params.navbar]]
   title = "Get Involved"
-  url = "https://github.com/LibraryVPN/"
+  url = "/beta"
