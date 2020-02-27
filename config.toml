@@ -164,6 +164,10 @@ section5 = false
     link = "https://github.com/LibraryVPN"
     icon = "github"
 
+    [[params.footer.socialmedia]]
+    link = "https://twitter.com/libraryvpn"
+    icon = "twitter"
+
   [[params.navbar]]
   title = "FAQ"
   url = "/faq"
