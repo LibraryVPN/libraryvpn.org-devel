@@ -5,7 +5,7 @@ theme = "hugo-fresh"
 disableKinds = ["taxonomy","taxonomyTerm"]
 [params]
 openGraph = true
-section5 = true
+section5 = false
 
   [params.navbarlogo]
   image = "logos/vpn.png"
