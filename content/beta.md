@@ -1,7 +1,7 @@
 ---
 title: "Beta Testing Program"
 date: 2020-02-27T16:02:26-05:00
-draft: true
+draft: false
 ---
 
 LibraryVPN is currently under active development. At the moment, the software is at an Alpha stage of maturity and not ready for general use. In an effort to test the software to get it ready for everyone to use it we are currently recruiting libraries to be part of our Beta program.
