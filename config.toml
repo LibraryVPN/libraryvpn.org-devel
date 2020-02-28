@@ -181,6 +181,6 @@ section5 = false
   url = "/beta"
 
   [[params.navbar]]
-  title = "libraries"
+  title = "Libraries"
   url = "/libraries"
 
