@@ -179,3 +179,7 @@ section5 = false
   [[params.navbar]]
   title = "Get Involved"
   url = "/beta"
+
+  [[params.navbar]]
+  title = "Libraries"
+  url = "/libraries"
