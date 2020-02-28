@@ -14,4 +14,4 @@ Public libraries get to activily help protect the privacy of their community mem
 LibraryVPN is built on proven open source solutions including OpenVPN, the gold standard for VPN security. The LEAP project has a proven track record of building secure software which has been used by activist organizations such as [RiseUp](https://riseup.net) for years. LibraryVPN builds on these projects by adding an authentication layer using the SIP2 protocol to allow patrons to use their library cards to log into the VPN client
 
 ## Publically funded, Always free
-LibraryVPN was initially funded through a National Leadership Grant from the Institute of Museum and Library Services. As a project that started out publically funded we are committed that the code will always remain free and open source so you can use it without worry.
+LibraryVPN was initially funded through a National Leadership Grant from the Institute of Museum and Library Services. As a project that started out publically funded we are committed that the code will always remain free and open source so you can use it without worry!
