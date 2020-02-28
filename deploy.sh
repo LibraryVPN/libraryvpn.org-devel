@@ -1,7 +1,9 @@
 #!/bin/bash
 
 echo -e "Deploying updates to GitHub..."
-
+cd public
+git pull origin master
+cd ../
 # Build the project.
 hugo -t hugo-fresh # if using a theme, replace with `hugo -t <YOURTHEME>`
 
