@@ -2,6 +2,7 @@
 title: "What Is Wrong With Current VPN Offerings?"
 date: 2020-02-27T15:27:53-05:00
 draft: false 
+weight: 7
 ---
 
 There are several problems with current VPN offerings. 

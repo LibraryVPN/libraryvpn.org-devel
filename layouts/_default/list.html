@@ -16,12 +16,12 @@
 </section>
   <div class="container">
     <ul>
-    {{ range .Pages }}
-    <li><a href="#{{ .UniqueID }}">{{ .Title }}</a></li>
+    {{ range .Pages.ByWeight }}
+    <li><a href="#{{ .File.UniqueID }}">{{ .Title }}</a></li>
 {{ end }}
 </ul>
-    {{ range .Pages }}
-		<article id="{{ .UniqueID }}">
+    {{ range .Pages.ByWeight }}
+		<article id="{{ .File.UniqueID }}">
 			<h2>{{ .Title }}</h2>
 			<div class="item-content">	{{ .Content }} </div>
 		</article>

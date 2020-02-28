@@ -2,6 +2,7 @@
 title: "Why Do We Need a Vpn? Isn't Https Enough?"
 date: 2020-02-27T16:01:44-05:00
 draft: false
+weight: 6
 ---
 
 HTTPS is very important for security. It provides end to end encryption of your content. You can think of this like an envelope on a letter. Unlike a postcard (http), people can no longer read the contents, but they can still find out lots of information (metadata) such as who is sending the information, who they are sending it to, and how much the two are talking. 
