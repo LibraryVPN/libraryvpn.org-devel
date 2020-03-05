@@ -12,7 +12,7 @@ Patrons will download an easy to use client for their Windows, Mac, or Linux com
 Public libraries get to activily help protect the privacy of their community members and promote intellectual freedom by hosting this software. They will help to protect the economically vulnerable who can't afford to pay for their own VPN and the less technical who may not know how to safely select a VPN provider.
 
 ## Online Security and Privacy
-1. Keep your interenet browsing private - whether you are using a public wifi network at an airport, or do not want your ISP selling your data, LibraryVPN will prevent snooping on your network traffic.
+1. Keep your internet browsing private - whether you are using a public wifi network at an airport, or do not want your ISP selling your data, LibraryVPN will prevent snooping on your network traffic.
 1. Prevent stolen information - Sending passwords or other sensitive data over a insecure public network can be a security risk. LibraryVPN helps to prevent identify theft and other types of data theft.
 1. Protect Intellectual Freedom - Surveillance chills intellectual freedom. When people think they are being watched, they will self censor their activities. LibraryVPN prevents this surveillance to help promote intellectual freedom.
 ## Standing on the shoulders of giants
